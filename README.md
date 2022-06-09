@@ -2,6 +2,8 @@
 
 An Android app that displays data from Punk API, an open-source API that displays detailed information on delicious craft-beer.
 
+* [Download APK File](https://drive.google.com/file/d/1F066jI7UCyOGduppuTPGu94r4qUFdOXZ/view?usp=sharing)
+
 ## Features
 *   Implementation of android [MVVM Architecture Pattern](https://developer.android.com/jetpack/guide).
 *   Data single source of truth implementation and google suggested practice for code separation using [Repository Architecture](https://codelabs.developers.google.com/codelabs/android-training-livedata-viewmodel/index.html#7).
