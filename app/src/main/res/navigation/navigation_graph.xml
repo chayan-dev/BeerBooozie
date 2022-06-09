@@ -6,7 +6,7 @@
 
     <fragment
         android:id="@+id/discoverBeerFragment"
-        android:name="com.example.beerbooozie.ui.DiscoverBeerFragment"
+        android:name="com.example.beerbooozie.ui.BeerDiscover.BeerDiscoverFragment"
         android:label="DiscoverBeerFragment" >
         <action
             android:id="@+id/action_discoverBeerFragment_to_beerDetailsFragment"
@@ -16,6 +16,6 @@
     </fragment>
     <fragment
         android:id="@+id/beerDetailsFragment"
-        android:name="com.example.beerbooozie.ui.BeerDetailsFragment"
+        android:name="com.example.beerbooozie.ui.BeerDetails.BeerDetailsFragment"
         android:label="BeerDetailsFragment" />
 </navigation>

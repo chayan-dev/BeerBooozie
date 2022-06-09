@@ -1,4 +1,4 @@
-package com.example.beerbooozie.ui
+package com.example.beerbooozie.ui.BeerDiscover
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -13,10 +13,10 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.beerbooozie.R
 import com.example.beerbooozie.databinding.FragmentDiscoverBinding
 
-class DiscoverBeerFragment : Fragment() {
+class BeerDiscoverFragment : Fragment() {
 
     private var binding: FragmentDiscoverBinding ?= null
-    private lateinit var viewModel: BeerViewModel
+    private lateinit var viewModel: BeerDiscoverViewModel
     private lateinit var beerAdapter: BeerDiscoverAdapter
 
 
@@ -25,7 +25,7 @@ class DiscoverBeerFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        viewModel=ViewModelProvider(this).get(BeerViewModel::class.java)
+        viewModel=ViewModelProvider(this).get(BeerDiscoverViewModel::class.java)
         beerAdapter= BeerDiscoverAdapter{openBeerDetails(it)}
 
         binding=FragmentDiscoverBinding.inflate(inflater,container,false)

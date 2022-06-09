@@ -1,6 +1,5 @@
-package com.example.beerbooozie.ui
+package com.example.beerbooozie.ui.BeerDiscover
 
-import android.text.Layout
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup

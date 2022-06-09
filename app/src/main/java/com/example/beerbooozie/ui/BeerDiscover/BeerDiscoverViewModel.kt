@@ -1,6 +1,5 @@
-package com.example.beerbooozie.ui
+package com.example.beerbooozie.ui.BeerDiscover
 
-import android.util.Log
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
@@ -8,11 +7,8 @@ import androidx.lifecycle.viewModelScope
 import com.example.beerbooozie.api.models.Beer
 import com.example.beerbooozie.data.BeersRepo
 import kotlinx.coroutines.launch
-import retrofit2.Call
-import retrofit2.Callback
-import retrofit2.Response
 
-class BeerViewModel: ViewModel() {
+class BeerDiscoverViewModel: ViewModel() {
 
     private val _discoverBeer = MutableLiveData<List<Beer>>()
 

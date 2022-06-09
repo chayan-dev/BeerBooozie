@@ -1,4 +1,4 @@
-package com.example.beerbooozie.ui
+package com.example.beerbooozie.ui.BeerDetails
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -7,7 +7,6 @@ import android.view.ViewGroup
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
-import com.bumptech.glide.Glide
 import com.example.beerbooozie.R
 import com.example.beerbooozie.databinding.FragmentBeerDetailsBinding
 import com.example.beerbooozie.extensions.loadImage

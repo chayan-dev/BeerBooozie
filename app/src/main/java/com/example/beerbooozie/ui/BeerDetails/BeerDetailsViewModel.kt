@@ -1,11 +1,10 @@
-package com.example.beerbooozie.ui
+package com.example.beerbooozie.ui.BeerDetails
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.example.beerbooozie.api.models.Beer
-import com.example.beerbooozie.data.BeersRepo
 import com.example.beerbooozie.data.BeersRepo.api
 import kotlinx.coroutines.launch
 
