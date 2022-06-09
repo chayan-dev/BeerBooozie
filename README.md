@@ -4,6 +4,10 @@ An Android app that displays data from Punk API, an open-source API that display
 
 * [Download APK File](https://drive.google.com/file/d/1F066jI7UCyOGduppuTPGu94r4qUFdOXZ/view?usp=sharing)
 
+<p align="center">
+  <img src=https://github.com/chayan-dev/BeerBooozie/blob/master/screenshots/InCollage_20220609_113808834.jpg  />
+</p>
+
 ## Features
 *   Implementation of android [MVVM Architecture Pattern](https://developer.android.com/jetpack/guide).
 *   Data single source of truth implementation and google suggested practice for code separation using [Repository Architecture](https://codelabs.developers.google.com/codelabs/android-training-livedata-viewmodel/index.html#7).
